@@ -3,11 +3,10 @@
 h1 {
     font-family: 'Exo', sans-serif;
     color: white;
+    font-size: 5rem;
 }
 
-h2 {
-    font-family: 'Exo', sans-serif;
-}
+
 
 #quote-content {
     font-family: 'Lemonada', sans-serif;
@@ -26,7 +25,12 @@ html, body {
 }
 
 .container{
-    width:1025px;
+    width:50em;
+}
+
+.container h1 {
+    margin-bottom: 3rem;
+    
 }
 
 .vertical-center {
@@ -50,7 +54,38 @@ html, body {
 
     display: inline-block;
     vertical-align: middle;  /* vertical alignment of the inline element */
-    font: 16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;        /* <-- reset the font property */
+    font: 2rem/1 "Lemonada", sans-serif;        /* <-- reset the font property */
+}
+
+
+
+
+
+.buttons {
+    margin-bottom: 20px;
+    display: block;
+
+}
+.button {
+    border-radius:3px;
+    font-size:0.85em;     
+}
+
+#tweet-icon {
+    vertical-align: middle;  
+}
+
+#get-another-quote-button {
+    height: 40px;
+    background-color: #337ab7;
+    border-color: #337ab7;
+}
+.footer {
+    margin: 60px;
+    padding: 15px;
+    color: white;
+    font-family: cursive;
+    font-size: 15px;
 }
 
 @media (max-width: 768px) {
