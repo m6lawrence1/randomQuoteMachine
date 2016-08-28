@@ -1,6 +1,7 @@
 
 $(function () {
-    $( window ).load(function getQuote (e) {
+    
+    $( window ).load(function(e) {
     e.preventDefault();
     $.ajax( {
       url: 'http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1',
@@ -18,7 +19,7 @@ $(function () {
       },
       cache: false
     });
-    });
+ 
     
     
 $('#get-another-quote-button').on('click', function(e) {
@@ -42,4 +43,4 @@ $('#get-another-quote-button').on('click', function(e) {
   });
 });
 
-
+ });
